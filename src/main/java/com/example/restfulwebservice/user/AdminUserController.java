@@ -36,7 +36,7 @@ public class AdminUserController {
         return mapping;
     }
 
-    // GET /users/1 or /users/10
+    // GET /admin/users/1 or /admin/users/10
     @GetMapping("/users/{id}")
     public MappingJacksonValue retrieveUser(@PathVariable int id) {
         User user = service.findOne(id);
