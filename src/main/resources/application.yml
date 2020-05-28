@@ -12,6 +12,8 @@ spring:
     user:
       name: username
       password: passw0rd
+  jpa:
+    show-sql: true
 
 
 management:
